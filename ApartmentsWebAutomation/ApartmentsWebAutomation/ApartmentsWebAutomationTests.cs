@@ -37,6 +37,11 @@ namespace ApartmentsWebAutomation
             }
         }
 
+        /// <summary>
+        /// From Apartment.com webpage, verify the failed message after usre failed to log in.
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <param name="userPassword"></param>
         [TestCase("someone@email.com", "TstPass")]
         public void SignInUnsuccessfulTest(string userName, string userPassword)
         {
