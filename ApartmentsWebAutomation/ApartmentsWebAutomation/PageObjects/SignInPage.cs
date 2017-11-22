@@ -2,7 +2,10 @@
 
 namespace ApartmentsWebAutomation.PageObjects
 {
-    class SignInPage
+	/// <summary>
+	/// Page Object Model: Sign In page 
+	/// </summary>
+	class SignInPage
     {
         //Encapsulated fields:
         private readonly IWebDriver _driver;
