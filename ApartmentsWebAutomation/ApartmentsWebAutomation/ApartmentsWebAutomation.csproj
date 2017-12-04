@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseTest.cs" />
     <Compile Include="PageObjects\AndroidHelper.cs" />
     <Compile Include="PageObjects\HomePage.cs" />
     <Compile Include="PageObjects\iHelper.cs" />
